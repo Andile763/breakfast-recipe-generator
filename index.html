@@ -8,39 +8,42 @@
     <title>AI Recipe Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Make breakfast using 3-ingredients</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Make breakfast using 3-ingredients</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter 1 Ingredient"
-          autofocus
-          autocomplete="off"
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>Follow this recipe</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Andile763" target="_blank">Mishell</a> and is
-      open-sourced
-      <a
-        href="https://github.com/Andile763/breakfast-recipe-generator"
-        target="_blank"
-        >on GitHub</a
-      >
-      and is
-      <a
-        href="https://ai-breakfast-recipe-generator.netlify.app/"
-        target="_blank"
-        >hosted on Netlify.</a
-      >
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter 1 Ingredient"
+            class="recipes-input"
+            autofocus
+            autocomplete="off"
+            required
+          />
+          <input type="submit" class="submit-input" />
+        </form>
+        <div class="recipe">Follow this recipe</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Andile763" target="_blank">Mishell</a> and
+        is open-sourced
+        <a
+          href="https://github.com/Andile763/breakfast-recipe-generator"
+          target="_blank"
+          >on GitHub</a
+        >
+        and is
+        <a
+          href="https://ai-breakfast-recipe-generator.netlify.app/"
+          target="_blank"
+          >hosted on Netlify.</a
+        >
+      </footer>
+    </div>
 
     <script src="src/script.js"></script>
   </body>
