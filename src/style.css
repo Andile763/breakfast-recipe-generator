@@ -52,6 +52,9 @@ form {
   margin-bottom: 10px;
   margin-left: 15px;
 }
+.hidden {
+  display: none;
+}
 .recipe {
   font-size: 16px;
   line-height: 1.2;
